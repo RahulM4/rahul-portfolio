@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors;
+}
+
+a {
+  @apply text-primary underline-offset-4 hover:underline;
+}
+
+.btn-primary {
+  @apply inline-flex items-center rounded-md bg-primary px-4 py-2 font-semibold text-white shadow hover:bg-primary-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary;
+}

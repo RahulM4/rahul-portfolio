@@ -1,0 +1,7 @@
+module.exports = {
+  extends: ['next/core-web-vitals', 'next/typescript'],
+  rules: {
+    'react/jsx-props-no-spreading': 'off',
+    '@next/next/no-img-element': 'off'
+  }
+};

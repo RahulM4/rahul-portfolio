@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.env
+.env.local
+npm-debug.log
+coverage
+.next
+apps/api/dist
+apps/web/.next
+apps/web/out
+apps/api/.nyc_output
